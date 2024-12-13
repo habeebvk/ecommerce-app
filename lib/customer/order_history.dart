@@ -18,7 +18,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
         padding: const EdgeInsets.only(left: 16,top: 30,right: 16),
         child: Container(
           width: MediaQuery.of(context).size.width * 20,
-          height: MediaQuery.of(context).size.height* 0.22,
+          height: MediaQuery.of(context).size.height* 0.28,
           decoration: BoxDecoration(
             color:const Color(0xffD9D9D9),
             borderRadius: BorderRadius.circular(20)
@@ -39,6 +39,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       Text("Order Id : #8935345443",style: GoogleFonts.montserrat(fontSize: 13),),
                       Text("Item : Roja Perfume",style: GoogleFonts.montserrat(fontSize: 13)),
                       Text("Price : 450Rs",style: GoogleFonts.montserrat(fontSize: 13)),
+                      Text("Quantity : 6ml",style: GoogleFonts.montserrat(fontSize: 13)),
+                      Text("Count : 2",style: GoogleFonts.montserrat(fontSize: 13)),
                       Text("Delivery date : 11/10/24",style: GoogleFonts.montserrat(fontSize: 13)),
                       Padding(  
                         padding: const EdgeInsets.only(top: 20),  

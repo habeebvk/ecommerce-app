@@ -24,7 +24,7 @@ class _StatusScreenState extends State<StatusScreen> {
               padding: const EdgeInsets.only(left: 20, top: 30, right: 20),  
               child: Container(  
                 width: MediaQuery.of(context).size.width / 0.20,  
-                height: MediaQuery.of(context).size.height * 0.22,  
+                height: MediaQuery.of(context).size.height * 0.25,  
                 decoration: BoxDecoration(  
                     color: const Color(0xffD9D9D9),  
                     borderRadius: BorderRadius.circular(20)),  
@@ -43,7 +43,8 @@ class _StatusScreenState extends State<StatusScreen> {
                           Text("Order Id : #8935345443", style: GoogleFonts.montserrat(fontSize: 13)),  
                           Text("Item : Roja Perfume", style: GoogleFonts.montserrat(fontSize: 13)),  
                           Text("Price : 450Rs", style: GoogleFonts.montserrat(fontSize: 13)),  
-                          Text("Qty : 2", style: GoogleFonts.montserrat(fontSize: 13)),  
+                          Text("Quantity : 6ml", style: GoogleFonts.montserrat(fontSize: 13)), 
+                          Text("Count : 2", style: GoogleFonts.montserrat(fontSize: 13)),  
                           Padding(  
                             padding: const EdgeInsets.only(top: 20),  
                             child: Row(  
