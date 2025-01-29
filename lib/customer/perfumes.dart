@@ -1,4 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:ecommerce/auth/authservice.dart';
 import 'package:ecommerce/controllers/homect.dart';
 import 'package:ecommerce/customer/aboutus.dart';
 import 'package:ecommerce/customer/cart.dart';
@@ -27,6 +28,7 @@ class Perfumes extends StatefulWidget {
 }  
 
 class _PerfumesState extends State<Perfumes> { 
+  final _auth = FirebaseAuthServices();
   String selectedOption = 'Sort By'; 
   @override  
   Widget build(BuildContext context) {
@@ -262,7 +264,8 @@ class _PerfumesState extends State<Perfumes> {
                 ListTile(  
                   tileColor: const Color(0xff312882) ,
                   title: const Drawtext(name: 'Logout'),
-                  onTap: () {  
+                  onTap: ()async{
+                    await _auth.signout();  
                     Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginScreen())
                     ); 
                   },  

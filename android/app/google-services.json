@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822680207703",
+    "project_id": "ecom-cool-pj",
+    "storage_bucket": "ecom-cool-pj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822680207703:android:d020c1d40ff03c90b07e12",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdjYC5T3UJa49lz_u_a-BfvyX58u_JtCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
